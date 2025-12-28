@@ -5,7 +5,8 @@
  */
 function calculateRentalCost(days) {
   // const SHORT_TERM = ;
-  const PRICE = 40 * days;
+  const BASIC_PRICE = 40;
+  const PRICE = BASIC_PRICE * days;
   const MID_TERM = 3;
   const MID_TERM_DISCOUNT = 20;
   const LONG_TERM = 7;
