@@ -16,7 +16,7 @@ function calculateRentalCost(days) {
   }
 
   if (days >= MID_TERM && days < 7) {
-    return PRICE - 20;
+    return PRICE - MID_TERM_DISCOUNT;
   }
     return PRICE;
 }
